@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="testing suite" duration-ms="290" started-at="2018-05-19T09:05:41Z" finished-at="2018-05-19T09:05:41Z">
+    <groups>
+    </groups>
+    <test name="Testing" duration-ms="290" started-at="2018-05-19T09:05:41Z" finished-at="2018-05-19T09:05:41Z">
+      <class name="learnMvnProject.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:learnMvnProject.AppTest@1b604f19]" name="shouldAnswerWithTrue" duration-ms="0" started-at="2018-05-19T14:35:41Z" finished-at="2018-05-19T14:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- learnMvnProject.AppTest -->
+      <class name="learnMvnProject.AppTest1">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:learnMvnProject.AppTest1@457e2f02]" name="shouldAnswerWithTrue" duration-ms="0" started-at="2018-05-19T14:35:41Z" finished-at="2018-05-19T14:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- learnMvnProject.AppTest1 -->
+      <class name="learnMvnProject.AppTest2">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:learnMvnProject.AppTest2@5c7fa833]" name="shouldAnswerWithTrue" duration-ms="0" started-at="2018-05-19T14:35:41Z" finished-at="2018-05-19T14:35:41Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- learnMvnProject.AppTest2 -->
+    </test> <!-- Testing -->
+  </suite> <!-- testing suite -->
+</testng-results>

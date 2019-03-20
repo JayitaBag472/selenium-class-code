@@ -1,0 +1,114 @@
+Test NG-
+no main class
+notations used.
+main notation - @Test--> signifies test case
+
+write n number of method just pass @Test
+
+@before suite
+@Before method--- executing before @test 
+@AfterMethod-- executing after @test
+@Before class
+@before test
+
+@Test(Priority=1)---> changes the priority for running test cases
+
+@BeforeMethod and @ Beforeclass will execute after each @test
+but @AfterClass and @BeforeClass will execute only after begining and end of the class(after execution of  all the test cases)
+
+object datatype is super data types for int string double etc
+data provider needs test cases
+
+benefits:
+in build framework
+reporting present
+parallel method in build in case of threads
+no main and other method required-- just @Test
+having dataProvider for fetching the data
+priority notation present --no need of looping
+
+implicitWait- all elements existence it will check
+
+emplicitwait- search a specific element
+no such element for giving wrong class name from dome
+
+xpaths:
+relative-- // tagname [attribute name= attribute value]
+absolute--/ full xpath
+--------------------------------------------------------
+
+create profile i
+
+exit from firefox browser->run->firefox.exe -p
+
+synchronization::
+
+thread wait used for  logs.
+
+implicit wait: presence of elements, not checking properties of elements,used in web page and common to all the elements
+explicit wait:waiting for any elements properties,used for each element and its properties
+1)clickable
+2)enable
+explicit wait is benifical
+
+
+List- findElements - finding all the elements in webpage
+wait-- implicit and explicit wait
+hover--- use actions
+
+windows- use set to handle multiple windows
+
+
+xpathaccess- 
+from top to bottom
+//span[text()='Samsung']/../..//preceding-sibling::li/a/span[text()='Mobiles']--- from bottom to top
+//span[text()='Samsung']/parent::*/..//preceding-sibling::li/a/span[text()='Mobiles']
+
+from top to bottom
+//span[text()='Mobiles']/../..//following-sibling::li/a/span[text()='Samsung']
+
+conatains -> are used for dynamic elements
+
+drag and drop method
+
+alerts-
+
+no object for interfaces.- alert,javascriptexecuter
+object created for classes like webdriver,select,actions
+
+alert/ notification/popup
+
+user will give keyword- serach
+
+add to cart-> men->shirt-> add to cart->  add five products and check add to cart page
+
+
+javascriptExecuter js = (JavascriotEx)dr;
+
+
+parrallel browser testing also knows as local threading 
+
+mvn archetype:generate
+
+
+
+ <plugin>
+          <artifactId>maven-surefire-plugin</artifactId>
+           <version>2.20.1</version>
+        <configuration>
+              <suiteXmlFiles>
+              <suiteXMLFile>src/test/resources/testing.xml</suiteXMLFile>
+              </suiteXmlFiles>
+        </configuration>
+
+
+
+
+
+
+
+
+
+
+
+

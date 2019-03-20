@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="learnMvnProject.AppTest" duration-ms="10227" started-at="2018-05-27T12:58:12Z" finished-at="2018-05-27T12:58:22Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="10227" started-at="2018-05-27T12:58:12Z" finished-at="2018-05-27T12:58:22Z">
+      <class name="learnMvnProject.AppTest">
+        <test-method status="PASS" signature="shouldAnswerWithTrue()[pri:0, instance:learnMvnProject.AppTest@36d64342]" name="shouldAnswerWithTrue" duration-ms="10203" started-at="2018-05-27T18:28:12Z" finished-at="2018-05-27T18:28:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shouldAnswerWithTrue -->
+      </class> <!-- learnMvnProject.AppTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- learnMvnProject.AppTest -->
+</testng-results>

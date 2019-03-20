@@ -1,0 +1,9 @@
+<suite name = "testing suite">
+<test name ="Testing">
+  <classes>
+  <class name="learnMvnProject.AppTest"/>
+   <class name="learnMvnProject.AppTest1"/>
+    <class name="learnMvnProject.AppTest2"/>
+  </classes>
+</test>
+</suite>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41" started-at="2018-05-31T12:13:12Z" finished-at="2018-05-31T12:13:12Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41" started-at="2018-05-31T12:13:12Z" finished-at="2018-05-31T12:13:12Z">
+      <class name="SeleniumDay.DataProvider">
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:SeleniumDay.DataProvider@1877ab81]" name="Test2" duration-ms="8" started-at="2018-05-31T12:13:12Z" data-provider="getData" finished-at="2018-05-31T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass1]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[add1]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[12345]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:SeleniumDay.DataProvider@1877ab81]" name="Test2" duration-ms="2" started-at="2018-05-31T12:13:12Z" data-provider="getData" finished-at="2018-05-31T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass2]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[add2]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[890769]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test2(java.lang.String, java.lang.String, java.lang.String, int)[pri:0, instance:SeleniumDay.DataProvider@1877ab81]" name="Test2" duration-ms="1" started-at="2018-05-31T12:13:12Z" data-provider="getData" finished-at="2018-05-31T12:13:12Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[User3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[pass3]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[add3]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[786534]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+      </class> <!-- SeleniumDay.DataProvider -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
